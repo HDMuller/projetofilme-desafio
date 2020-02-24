@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+body, input, button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 1000px !important;
+  margin: auto;
+  margin-top: 30px;
+}
+
+table svg {
+  cursor: pointer;
+}
+
+.newButton {
+  width: 100%;
+  text-align: center;
+}
+
+.newButton {
+  margin-top: 30px;
+}
+
+.table ul {
+  margin: 0;
+  list-style: none;
+}

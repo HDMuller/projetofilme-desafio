@@ -1,0 +1,19 @@
+.navbar {
+    background-color: rgb(151, 54, 54);
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-item {
+    padding: 0 60px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}

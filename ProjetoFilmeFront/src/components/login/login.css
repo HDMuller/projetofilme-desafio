@@ -1,0 +1,76 @@
+.login-container {
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login-container form input[type=text], .login-container form input[type=password] {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.login-container form input::placeholder {
+    color: #999;
+}
+
+.login-container form select {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.login-container form select::placeholder {
+    color: #999;
+}
+
+.login-container form .button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    background: rgb(218, 46, 46);
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.login-container form a {
+    color: #666666;
+}
+
+.login-container form .checkbox {
+    margin-top: 30px;
+}
+
+.login-container form .checkbox input {
+    margin-right: 10px;
+}
+
+.login-container label {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#DataLocacao {
+    margin-top: 0;
+}

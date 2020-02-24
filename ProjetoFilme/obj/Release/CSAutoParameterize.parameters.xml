@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DataDbContext-Web.config Connection String" description="DataDbContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:projetofilmeapiserver.database.windows.net,1433;Initial Catalog=DataDb;Persist Security Info=False;User ID=DataDb;Password=ProjetoFilme1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\hique\\source\\repos\\ProjetoFilme\\ProjetoFilme\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DataDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="ProjetoFilme.Data.DataDbContext-Web.config Connection String" description="ProjetoFilme.Data.DataDbContext Connection String used in web.config by the application to access the database." defaultValue="ProjetoFilme.Data.DataDbContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\hique\\source\\repos\\ProjetoFilme\\ProjetoFilme\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProjetoFilme.Data.DataDbContext']/@connectionString" />
+  </parameter>
+</parameters>
